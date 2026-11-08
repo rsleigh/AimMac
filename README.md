@@ -82,6 +82,10 @@ Click **Game** in the notch panel or **Play the target game** in the menu. Press
 - **Mac** (`Mac/`): projects the aim onto the screen like a laser hitting a wall, smooths it with a [1€ filter](https://gery.casiez.net/1euro/) using the device's timestamps, and eases the cursor toward it 240 times a second on its own thread. A click lands where you were aiming the moment your finger touched the screen, so the tap's jolt doesn't move it.
 - **Bluetooth**: the Mac advertises a service; the device connects and writes small packets. The protocol is documented at the top of `Shared/Protocol.swift`.
 
+## Windows
+
+`Windows/` is a receiver for the same iPhone protocol. Cursor control stays off until the PC is started, the phone is approved, and input is armed. Secure mode asks Windows for authenticated BLE encryption and has not been radio-tested. Prototype mode is an explicit plaintext fallback for the current phone app. Build and test steps are in `Windows/README.md`.
+
 ## Credits
 
 Inspired by [WatchPointer](https://github.com/umarz317/WatchPointer) by umarz317. AimMac is a separate implementation written from scratch.
