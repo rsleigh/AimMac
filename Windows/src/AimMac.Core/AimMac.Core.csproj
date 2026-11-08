@@ -1,0 +1,8 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>AimMac.Core</RootNamespace>
+    <AssemblyName>AimMac.Core</AssemblyName>
+    <Description>Protocol, aiming math, and session safety for the AimMac Windows receiver.</Description>
+  </PropertyGroup>
+</Project>
